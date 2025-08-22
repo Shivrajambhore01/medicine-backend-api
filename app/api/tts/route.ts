@@ -141,7 +141,7 @@ For production deployment, you could integrate with:
    - Real-time synthesis
 
 Example integration with Google Cloud TTS:
-```typescript
+\`\`\`typescript
 import { TextToSpeechClient } from '@google-cloud/text-to-speech';
 
 const client = new TextToSpeechClient();
